@@ -13,11 +13,11 @@ public class Main {
 
             String string = scanner.nextLine();
             if (string.equals("1")) {
-               Encrypted encrypted = new Encrypted();
-               encrypted.encrypted();
+                EncryptedDecrypted encryptedDecrypted = new EncryptedDecrypted();
+                encryptedDecrypted.encryptedDecrypted(true);
             } else if (string.equals("2")) {
-                Decrypted decrypted = new Decrypted();
-                decrypted.decrypted();
+                EncryptedDecrypted encryptedDecrypted = new EncryptedDecrypted();
+                encryptedDecrypted.encryptedDecrypted(false);
             } else if (string.equals("3")) {
                 System.out.println("action");
             } else if (string.equals("4")) {
