@@ -1,3 +1,5 @@
+package com.company;
+
 public class CaesarCipher {
     private static String alphabet = "abcdefghijklmnopqrstuvwxyz" + "ABCDEFGHIJKLMNOPQRSTUVWXYZ" +
             "абвгдеёжзийклмнопрстуфхцчшщъыьэюя" + "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ" +
@@ -26,8 +28,3 @@ public class CaesarCipher {
         return alphabet.length();
     }
 }
-
-// дз переписать строчки с 12-по 17 через тернарный оператор
-// разобраться почему всё зашифровалось в одну строчку
-//написать аналогично класс для расшифровки
-// сделать гит хаб новый
